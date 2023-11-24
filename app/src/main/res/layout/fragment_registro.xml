@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistroFragment">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="0dp"
+        android:text="Registro"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:alpha="0.5"
+        android:gravity="center"
+        android:text="Pulsa + para registrar \n tu primer entrenamiento"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.507" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:gravity="center"
+        android:src="@drawable/fitness_center_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.335"
+        android:alpha="0.3"/>
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="#8B158C2C"
+        android:fadeScrollbars="false"
+        android:foreground="@color/cardview_shadow_end_color"
+        android:text="Agregar Entrenamiento"
+        app:icon="@drawable/add_circle_outline_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

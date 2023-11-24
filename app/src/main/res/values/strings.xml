@@ -1,0 +1,12 @@
+<resources>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_name">MUDO´S GYM</string>
+    <string name="app_name1">INICIO LA RUTINA</string>
+    <string name="app_name2">TERMINÓ LA RUTINA</string>
+    <string name="changed_to">Notificación cambiada a las %s</string>
+    <string name="select_time">Selecciona la hora</string>
+    <string name="change_time">Cambia la hora</string>
+    <string name="new_notification">Nueva notificación</string>
+    <string name="notification1">Vamos con todo!</string>
+    <string name="notification2">No olvides hidratarte</string>
+</resources>

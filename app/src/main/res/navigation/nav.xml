@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/pagina_inicio">
+
+    <fragment
+        android:id="@+id/pagina_inicio"
+        android:name="com.example.botonesinferiores.RegistroFragment"
+        tools:layout="@layout/fragment_registro"/>
+    <fragment
+        android:id="@+id/pagina_rutinas"
+        android:name="com.example.botonesinferiores.RutinasFragment"
+        tools:layout="@layout/fragment_rutinas"/>
+    <fragment
+        android:id="@+id/pagina_estadisitcas"
+        android:name="com.example.botonesinferiores.EstadisticasFragment"
+        tools:layout="@layout/fragment_estadisticas"/>
+    <fragment
+        android:id="@+id/pagina_perfil"
+        android:name="com.example.botonesinferiores.PerfilFragment"
+        tools:layout="@layout/fragment_perfil"/>
+
+</navigation>

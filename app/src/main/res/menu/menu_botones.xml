@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/pagina_inicio"
+        android:icon="@drawable/restore_24"
+        android:title="Registro"/>
+    <item
+        android:id="@+id/pagina_rutinas"
+        android:icon="@drawable/fitness_center_24"
+        android:title="Rutinas"/>
+    <item
+        android:id="@+id/pagina_estadisitcas"
+        android:icon="@drawable/timeline_24"
+        android:title="Estadisticas"/>
+    <item
+        android:id="@+id/pagina_perfil"
+        android:icon="@drawable/perm_identity_24"
+        android:title="Perfil"/>
+</menu>
